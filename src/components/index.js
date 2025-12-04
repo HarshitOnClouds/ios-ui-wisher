@@ -6,6 +6,7 @@ import Photos from "./Photos";
 import Settings from "./Settings";
 import Store from "./Store";
 import Recorder from "./Recorder";
+import LockScreen from "./LockScreen";
 
 export {
     Calculator,
@@ -16,4 +17,6 @@ export {
     Settings,
     Store,
     Recorder,
+    LockScreen,
+
 }
