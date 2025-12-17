@@ -5,10 +5,10 @@ const icons = [
     { name: 'calendar', src: '/icons/calendar.png' },
     { name: 'contacts', src: '/icons/contacts.png' },
     { name: 'music', src: '/icons/music.png' },
-    { name: 'photos', src: '/icons/photos.png' },
-    { name: 'recorder', src: '/icons/recorder.png' },
-    { name: 'settings', src: '/icons/settings.png' },
-    { name: 'store', src: '/icons/store.png' },
+    { name: 'pinterest', src: '/icons/pinterest.png' },
+    {name: 'notes', src: '/icons/notes.png'},
+    {name: 'biryani', src: '/icons/biryani.png'},
+    {name: 'harrypotter', src: '/icons/harrypotter.png'}
 ]
 
 function IconGrid({ onIconClick, currentSelectedApplication }) {
@@ -21,7 +21,10 @@ function IconGrid({ onIconClick, currentSelectedApplication }) {
         <div className='grid grid-cols-4 gap-4 p-4'>
             {icons.map((icon) => (
                 <div key={icon.name} className='flex flex-col items-center'>
+                    <div>
                     <img src={icon.src} alt={icon.name} className='w-16 h-16 mb-2' onClick={() => handleIconClick(icon.name)} />
+                    <p className='text-center '>{icon.name}</p>
+                    </div>
                 </div>
             ))}
         </div>

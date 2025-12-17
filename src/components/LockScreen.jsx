@@ -7,28 +7,28 @@ const mockNotifications = [
     id: 1,
     icon: '💬',
     title: 'Messages',
-    text: 'John Doe: Hey, are you there? Call me!',
+    text: 'Harshit : happy birthday niggdi',
     time: '2 min ago'
   },
   {
     id: 2,
     icon: '🗓️',
     title: 'Calendar',
-    text: 'Reminder: Web Dev Stand-up meeting in 10 minutes.',
+    text: 'Reminder : kuch to hai aaj',
     time: 'Just now'
   },
   {
     id: 3,
     icon: '📧',
     title: 'Gmail',
-    text: 'New mail from Jane Smith about the project budget.',
+    text: 'New mail from god about you being buddhi',
     time: '15 min ago'
   },
   {
     id: 4,
     icon: '💡',
-    title: 'Gemini',
-    text: 'Your code review is complete and ready for merge.',
+    title: 'Chatgpt',
+    text: 'kiss me like you miss me',
     time: '30 min ago'
   },
 ];

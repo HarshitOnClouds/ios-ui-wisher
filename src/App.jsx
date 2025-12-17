@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import IconGrid from './components/IconGrid'
-import { Calculator, Calendar, Contacts, Music, Photos, Recorder, Settings, Store, LockScreen } from './components/index.js'
+import { Calculator, Calendar, Contacts, Music, Photos,HarryPotter, Recorder, Settings, Store, LockScreen,Biryani,Notes,Pinterest } from './components/index.js'
 
 function App() {
   const [selectedApplication, setSelectedApplication] = useState(null)
@@ -36,6 +36,10 @@ function App() {
     recorder: <Recorder />,
     settings: <Settings />,
     store: <Store />,
+    biryani: <Biryani />,
+    notes: <Notes/>,
+    pinterest: <Pinterest/>,
+    harrypotter: <HarryPotter/>
   };
 
   const CurrentApp = selectedApplication ? AppComponentMap[selectedApplication] : null;

@@ -13,6 +13,36 @@ const tracks = [
     src: "/songs/birthday.mp3",
     cover: "/covers/birthday.jpeg",
   },
+  {
+    title: "Tu Hi Mera",
+    artist: "pritam obv ",
+    src: "/songs/tuhimera.mp3",
+    cover: "/covers/tuhimera.jpg",
+  },
+  {
+    title: "Happy Birthday",
+    artist: "Sneha ",
+    src: "/songs/vm.mp3",
+    cover: "/covers/birthday.jpeg",
+  },
+  {
+    title: "Happy Birthday",
+    artist: "sasti harmoine/emmawatson",
+    src: "/songs/hermoine.mp3",
+    cover: "/covers/hermoine.jpg",
+  },
+  {
+    title: "Let Down",
+    artist: "RadioHead",
+    src: "/songs/letdown.mp3",
+    cover: "/covers/letdown.jpeg",
+  },
+  {
+    title: "Piano Man",
+    artist: "billy joel",
+    src: "/songs/pianoman.mp3",
+    cover: "/covers/pianoman.jpeg",
+  },
   // add more tracks here
 ];
 
@@ -142,10 +172,10 @@ export default function Music() {
   };
 
   return (
-    <div className="fixed inset-0 w-screen h-screen bg-gradient-to-b from-slate-900 via-slate-950 to-black text-slate-50 flex items-center justify-center p-4">
-      <div className="w-full max-w-md mx-auto rounded-3xl sm:rounded-[2rem] bg-white/5 border border-white/10 shadow-[0_24px_80px_rgba(0,0,0,0.6)] backdrop-blur-2xl p-6 sm:p-8">
+    <div className="absolute inset-0 -m-4 -mt-16 w-screen h-screen bg-gradient-to-b from-slate-900 via-slate-950 to-black text-slate-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto overflow-x-hidden">
+      <div className="w-full max-w-sm sm:max-w-md mx-auto rounded-2xl sm:rounded-3xl bg-white/5 border border-white/10 shadow-[0_24px_80px_rgba(0,0,0,0.6)] backdrop-blur-2xl p-5 sm:p-6 md:p-8">
         {/* Top header */}
-        <div className="flex items-center justify-between mb-6 sm:mb-8">
+        <div className="flex items-center justify-between mb-4 sm:mb-6">
           <div className="flex items-center gap-2 text-xs text-slate-300">
             <span className="h-2 w-2 rounded-full bg-red-500" />
             <span className="font-medium tracking-wide uppercase">
@@ -158,7 +188,7 @@ export default function Music() {
         </div>
 
         {/* Cover with sliding animation */}
-        <div className="mb-6 sm:mb-8 overflow-hidden">
+        <div className="mb-4 sm:mb-6 overflow-hidden">
           <div
             className={`transition-all duration-300 ease-out ${
               isAnimating
@@ -179,7 +209,7 @@ export default function Music() {
         </div>
 
         {/* Title / Artist with sliding animation */}
-        <div className="mb-6 overflow-hidden">
+        <div className="mb-4 sm:mb-6 overflow-hidden">
           <div
             className={`transition-all duration-300 ease-out ${
               isAnimating
@@ -201,7 +231,7 @@ export default function Music() {
         </div>
 
         {/* Progress bar section */}
-        <div className="mb-6 sm:mb-8">
+        <div className="mb-4 sm:mb-6">
           <input
             type="range"
             min={0}
@@ -225,8 +255,8 @@ export default function Music() {
         </div>
 
         {/* Controls */}
-        <div className="mb-6">
-          <div className="flex items-center justify-center gap-4 sm:gap-8">
+        <div className="mb-4 sm:mb-6">
+          <div className="flex items-center justify-center gap-3 sm:gap-6">
             {/* Previous */}
             <button
               onClick={handlePrev}
@@ -239,10 +269,10 @@ export default function Music() {
             {/* Play / Pause big button */}
             <button
               onClick={handlePlayPause}
-              className="rounded-full h-16 w-16 sm:h-20 sm:w-20 flex items-center justify-center bg-white text-slate-900 shadow-xl shadow-pink-500/30 hover:shadow-pink-500/50 active:scale-95 transition-all"
+              className="rounded-full h-14 w-14 sm:h-16 sm:w-16 md:h-20 md:w-20 flex items-center justify-center bg-white text-slate-900 shadow-xl shadow-pink-500/30 hover:shadow-pink-500/50 active:scale-95 transition-all"
               aria-label={isPlaying ? "Pause" : "Play"}
             >
-              <span className="text-3xl sm:text-4xl">
+              <span className="text-2xl sm:text-3xl md:text-4xl">
                 {isPlaying ? "⏸" : "▶"}
               </span>
             </button>
