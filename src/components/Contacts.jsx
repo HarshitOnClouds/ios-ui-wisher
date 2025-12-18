@@ -112,6 +112,16 @@ export default function Contacts() {
       badge: "🪄 Expelliarmus Specialist",
       bgColor: "#9333EA"
     },
+    {
+      name: "prerna",
+      title: "lilliput friend",
+      avatar: <img src="./contacts/prerna.jpg" alt="" />,
+      phone: "bestest bestie",
+      email: "unchillpre.o_o@instagram.com",
+      location: "Kathie ka heart",
+      badge: "🪄 Expelliarmus Specialist",
+      bgColor: "#9333EA"
+    },
   ];
 
   return (
