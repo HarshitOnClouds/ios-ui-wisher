@@ -74,6 +74,22 @@ export default function Notes() {
                         19 december 12:00am
                     </div>
                 </div>
+                <div className="rounded-xl bg-[#FFF4B8] px-4 py-3">
+                    <div className="text-[16px] font-semibold text-black">
+                        Tanya
+                    </div>
+                    <div className="text-[14px] text-[#3A3A3C] break-word">
+                        {/* Hieee mi katie kat babiiiiii, well well well, aaj aap toh 16🤔woops, 18?😨ki hogis??? Omz😨 ittu🤏si thi jab mile the apan😔dheere dheere bade hore😔 but yk what will never change? MY LOVE FOR YOUUUUUUUUUUU!!HEHEHEHE (and you height shaming me jabki tu bass 🤏ittu lambi hai, hurr hurr) anyways, ab tujhe toh pata hi hoga ki HOW MUCH I LOVE YOU💕💕💕 YOU ARE MY DAY1💕💕💕YOU WILL BE MY DAY1, HUMESHAAAAAAAAA💕💕💕 thank you for always being there for me🥀 (i mis our roblox days ykyk) you da snoopi to mi cinna💕💕 i can lowk never thank aunty ji for blessing mi with such a cutie patootie(bully) fren...no..BEST FREN🥂BESTEST FREN⚘️⚘️ I MISS YOU SO FUCKING MUCH!!! Hope we apan jaldi milen just like da old times🥀anyways, i hope aaj ka yeh din tera accha jaye💕(yk i will shower you with chummis the next time we meet) i love love loveeee you so so much, Katherine💕 */}
+                        Happy birthday katherine 🎊🥳
+                        Today is the day I was waiting for! You are the cutest and kindest person I have ever met 🎀... Love you so much dear ❤️💗
+                        I wish tu successful ho jaye phir apan sab mast jagah ghumne chalenge 😭 omg thinking about it gives me goosebumps 😭
+                        I hope you spent your day full of happiness and heart warming messages!
+                        Once again a very happy birthday cutieeee 🎉🎂🎊🥳🎀
+                    </div>
+                    <div className="text-[12px] text-[#8E8E93] mt-1">
+                        19 december 12:00am
+                    </div>
+                </div>
             </div>
 
             {/* Bottom toolbar spacer */}
