@@ -18,7 +18,7 @@ export default function Notes() {
                         Your love,
                     </div>
                     <div className="text-[12px] text-[#8E8E93] mt-1">
-                        19 december 12::00am
+                        19 december 12:00am
                     </div>
                 </div>
 
@@ -31,7 +31,7 @@ export default function Notes() {
                         A VERY HAPPY BIRTHDAY TO MYYYY POOKIEST OF EM POOKIEEE (kha jaaungi apko mein toh ek dum gatak jaaungi yum yum 👅👅 aur apne dil ke pass le jaaungi taaki jab mein apni chaati phadungi toh tu nikle muheheehe 😈). Bohut time se mile nahi yrrr apan jaldi se apka neet wala chomuness nikle phir apan phirse ghumi ghumi he karte rahenge jaise phele moj masti karte the 🔥🔥🔥. Aur har Sunday phir jaaya karenge Dmart mast momos, pani puri khaya karenge with no rok tok. I'm sooo happi ki hamari friendship abhi tak chal rahi after all those up and downs (cuz aap ho he itni pookie si ki sab kuch handle kar li) 😋😋😋. ITNA KUCH KIYA MERE LIYE, ITNE ACHE SE SAMJHAYA MUJHE HAR CHEEZ, MERE SAHI GALAT KO SAMJHA AUR SUDHARA I SERIOUSLY LOVE YOUUU SOOO MUCH 💕💕💕.  And I really hope ki tera neet nikal jaa mast stethoscope latka kar ghumegi aur mein discount mai apna ilaaz karwa kar Jaya karungi 👅👅. Aur dawaiyo mai bhi discount dalwa ek (ek mai ek free wala 😝).
                     </div>
                     <div className="text-[12px] text-[#8E8E93] mt-1">
-                        19 december 12::00am
+                        19 december 12:00am
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@ export default function Notes() {
                         I really hope ki jaisa abhi chal raha hai vaise he chalta reh na he tu kahi gayab ho jaaye aur na he mein kabhi kyuki mujhe nahi lagta mujhe tujh jaisi (pre, teena in sab jaise bhi) log mil paayenge kahi bhi, jidhar bhi jaaungi koi bhi achi ladki mili mere dimag mai yahi baat aayegi ki arey aisi toh kat aur pre bhi thi aur phir yaad karne lag jaaungi (jaise abhi cllg mai) bass jaldi jaldi time beete (I WANT USSSSS KI EK MEETUP KARE YA GHUMI GHUMI) BOHUT JOR 😿😿😿💔💔. AGAIN A VERY HAPPY BIRTHDAY POOKIEEE MUAHHH ENJOYYY YOUR DAYY 💕💕💕.
                     </div>
                     <div className="text-[12px] text-[#8E8E93] mt-1">
-                        19 december 12::00am
+                        19 december 12:00am
                     </div>
                 </div>
                 {/* Note 4 */}
@@ -57,7 +57,7 @@ export default function Notes() {
                         we met in 2020 , it’s kinda crazy how Among us brought us together, i’m really grateful it did, It’s been 5 years and we are still good friends haha. i love our little random talks, your sense of humor and  your pretty curly hair. i hope this year brings you so much happiness, peace, and everything you deserve 🤍 love youu!!!
                     </div>
                     <div className="text-[12px] text-[#8E8E93] mt-1">
-                        19 december 12::00am
+                        19 december 12:00am
                     </div>
                 </div>
             </div>
